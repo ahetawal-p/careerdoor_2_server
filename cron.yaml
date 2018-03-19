@@ -1,0 +1,4 @@
+cron:
+- description: local storage cleanup
+  url: /cron
+  schedule: every 12 hours
