@@ -14,5 +14,5 @@ class DailyCron(Item):
     def clean_qUrl(self, qUrl):
         localStorage = os.getcwd() + "/.html"
         logger.info(Fore.RED, 'CLEANUP', 'Clean up ' + localStorage)
-        rmtree(localStorage)
+        #rmtree(localStorage)
         return 'clean'
