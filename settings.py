@@ -14,7 +14,7 @@ class MySettings(Settings):
         'cache_class': MemoryCache,
         'cache_config': {},
         'serializer': None,
-        'ttl': 1800  # 30 min
+        'ttl': 900  # 15 min
     }
     storage = {
         "PATH": os.getcwd(),
