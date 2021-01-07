@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-lxml = "==4.1.1"
+lxml = "==4.6.2"
 toapi = "==1.0.0"
 colorama = "==0.3.9"
 "beautifulsoup4" = "==4.6.0"
